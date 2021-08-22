@@ -1,0 +1,13 @@
+HistoryId: MCID_6106a93cd99e703ac2043867
+QueryKey: 26
+ReleaseType: GenBank
+FileType: GENOME_GB
+Flat: true
+
+Query title: Search agaricales AND latest[filter] AND all[filter] NOT anomalous[filter] AND "genbank has annotation"[Properties]  Sort by: SORTORDER
+Search results count: 102
+Entries to download: 102
+
+GENOME_GB files in archive: 102
+Total size (bytes): 3353069874
+Total time: 10 minutes 30 seconds
