@@ -7,7 +7,7 @@ import os.path
 def diccionario_argumentos():
     argumentos={}
     if len(sys.argv) < 4:
-        print("No está ingresando los suficientes argumentos. La sintaxis es <data> <id> <query>, en ese orden y si su query=proteinseq debe adicionar <proteinseq>")
+        print("No está ingresando los suficientes argumentos. La sintaxis es <data> <id> <query>, en ese orden y si query=proteinseq debe adicionar <proteinseq>")
         return {}
     else:
         for p in sys.argv[1:]:
