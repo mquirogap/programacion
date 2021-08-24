@@ -7,7 +7,7 @@ import os.path
 def diccionario_argumentos():
     argumentos={}
     if len(sys.argv) < 4:
-        print("No está ingresando los suficientes argumentos. La sintaxis es <data> <id> <query>, en ese orden y si query=proteinseq debe adicionar <proteinseq>")
+        print("No está ingresando los suficientes argumentos. La sintaxis es <data> <id> <query>, en ese orden y si query=proteinseq debe adicionar <protein_seq>")
         return {}
     else:
         for p in sys.argv[1:]:
@@ -265,3 +265,13 @@ def main():
         prot_id=None
     query_detallado(lista,path,query_, prot_id)
 main()
+
+#Opciones de comandos parar correr el programa:
+#Obtener secuencia ADN de un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=dnaseq
+#Obtener archivosque tienen un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=files
+#Obtener Genome Assembly Data de un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=totals
+#Obtener header de un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=header
+#Obtener lista de proteínas de un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinlist
+#Obtener secuencia de una proteína en un accession: python practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinseq protein_seq=KAF90148
+#NOTA: para las opciones de query: dnaseq y proteinlist es recomendable adicionar un archivo de salida para poder ver mejor los resultados ( >output.txt)
+#python practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinlist >output.txt
