@@ -31,7 +31,7 @@ La función query tiene 6 posibles usos:
 
 ## Uso
 
-A continuación se da un ejemplo de como llamar el programa según lo que el usuario desee hacer.
+A continuación se da un ejemplo de como llamar el programa desde la terminal según lo que el usuario desee hacer.
 ```python
 
 
