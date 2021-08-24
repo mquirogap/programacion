@@ -43,8 +43,4 @@ python3 practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinlist #Obte
 python3 practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinseq protein_seq=KAF90148 #Obtener secuencia de una proteína en un accession 
 #NOTA: para las opciones de query: dnaseq y proteinlist es recomendable adicionar un archivo de salida para poder ver mejor los resultados ( >output.txt)
 python3 practica_1.py data=./gbff id=acc:JADNRW010000001 query=proteinlist >output.txt
-
-
-
-
-
+```
