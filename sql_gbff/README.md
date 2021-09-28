@@ -23,7 +23,7 @@ It's the information of each protein found under the CDS section of each accessi
 Below you can find an example of command line for the console so you can run the program with the desired gbff file. 
 ```python
 
-python3 sql_gbff.py Database='/Users/quiroga/Documents/Manuela_Quiroga/EAFIT/9no_semestre/Programacion/sql/sql_gbff_databse.db' Gbff=./data/GCF_000025685.1_ASM2568v1_genomic.gbff #The user must give the path to the database and the path to the gbff file
+python3 sql_gbff.py Database='path/sql_gbff_databse.db' Gbff=./data/GCF_000025685.1_ASM2568v1_genomic.gbff #The user must give the path to the database and the path to the gbff file
 
 ```
 
