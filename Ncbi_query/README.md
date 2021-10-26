@@ -11,7 +11,7 @@ For the user to enter the query it is necessary that the statement is between qu
 
 ### Query in the command line
 
-"\"Moniliophthora perniciosa\"[Organism] OR moniliophthora perniciosa[All Fields]"
+" \ "Moniliophthora perniciosa \ "[Organism] OR moniliophthora perniciosa[All Fields]"
 
 ## Command line
 
